@@ -1,0 +1,166 @@
+.veliava {
+    height: 110px;
+    width: 330px;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    left: 50px;
+
+}
+
+
+
+.geltona {
+    height: 33.33px;
+    width: 100px;
+    background-color: yellow;
+    animation-name: plevesuoja-1;
+    animation-duration: 3s;
+    padding: 10px;
+    animation-iteration-count: 100;
+}
+
+.zalia {
+    height: 33.33px;
+    width: 100px;
+    background-color: green;
+    animation-name: plevesuoja-2;
+    animation-duration: 3s;
+    padding: 10px;
+    animation-iteration-count: 100;
+        }
+
+.raudona {
+    height: 33.33px;
+    width: 100px;
+    background-color: red;
+    animation-name: plevesuoja-3;
+    animation-duration: 3s;
+    padding: 10px;
+    animation-timing-function: 2steps;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes plevesuoja-1 {
+    0% {
+        height: 0;
+        width: 0;
+    }
+
+    10% {
+        height: 95%;
+        width: 95%;
+    }
+
+    20% {
+        width: 55%;
+    }
+
+    30% {
+        width: 65%;
+    }
+
+    40% {
+        width: 75%;
+    }
+    50% {
+        background-color: white;
+        width: 55%;
+    }
+        
+    60% {
+        width: 65%;
+    }
+        
+    70% {
+        width: 75%;
+    }
+
+    100% {
+        width: 100%;
+    }
+
+}
+@keyframes plevesuoja-2 {
+    0% {
+        height: 0;
+        width: 0;
+    }
+
+    10% {
+        height: 100%;
+        width: 100%;
+    }
+
+    20% {
+        width: 50%;
+    }
+
+    30% {
+        width: 60%;
+    }
+
+    40% {
+        background-color: white;
+        width: 70%;
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    60% {
+        width: 60%;
+    }
+
+    70% {
+        width: 70%;
+    }
+
+    100% {
+        width: 100%;
+    }
+
+}
+@keyframes plevesuoja-3 {
+    0% {
+        height: 0;
+        width: 0;
+    }
+
+    10% {
+        height: 95%;
+        width: 95%;
+    }
+        
+    20% {
+        width: 55%;
+    }
+        
+    30% {
+        width: 65%;
+    }
+
+    40% {
+        width: 75%;
+    }
+        
+    50% {
+        width: 55%;
+    }
+        
+    60% {
+        background-color: white;
+        width: 65%;
+    }
+        
+    70% {
+        width: 75%;
+    }
+        
+    100% {
+        width: 100%;
+    }
+
+}
